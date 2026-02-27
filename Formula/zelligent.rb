@@ -1,9 +1,9 @@
 class Zelligent < Formula
   desc "Spawn AI coding agents in Zellij worktree tabs"
   homepage "https://github.com/pcomans/zelligent"
-  version "0.1.11"
+  version "0.1.12"
   url "https://github.com/pcomans/zelligent/releases/download/v#{version}/zelligent-v#{version}.tar.gz"
-  sha256 "e519474b2cee49ef5be1da32bbd15f343ca54548d018f153425861866cdf61e9"
+  sha256 "1b8831db0e41a0334b40b0ae0f6716690dbab5cb72ceb4848ee2c570ef2f0649"
   license "MIT"
 
   depends_on "zellij"
