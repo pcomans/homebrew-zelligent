@@ -12,11 +12,12 @@ class Zelligent < Formula
   def install
     bin.install "zelligent.sh" => "zelligent"
     (share/"zelligent").install "zelligent-plugin.wasm"
+    (share/"zelligent").install "default-layout.kdl"
   end
 
   def caveats
     <<~EOS
-      Run `zelligent doctor` to install the Zellij plugin and configure keybindings.
+      Run `zelligent doctor` to install the default layout and plugin permissions.
     EOS
   end
 
