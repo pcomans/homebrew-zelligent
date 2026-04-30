@@ -3,7 +3,7 @@ class Zelligent < Formula
   homepage "https://github.com/pcomans/zelligent"
   version "0.2.0"
   url "https://github.com/pcomans/zelligent/releases/download/v#{version}/zelligent-v#{version}.tar.gz"
-  sha256 "2c9077b877b9ce9cc6876a74d2a709b52a32e513fd8e6df38f8e324d110731a0"
+  sha256 "2b2680e04a04bb3cb2187b5d404d052ee8092511ab39340e4385284a70573db7"
   license "MIT"
 
   depends_on "zellij"
